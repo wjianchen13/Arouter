@@ -16,6 +16,6 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     public void onTest(View view) {
-        Go.module1().navigation();
+        Go.module2().navigation();
     }
 }
