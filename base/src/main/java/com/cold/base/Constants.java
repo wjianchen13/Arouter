@@ -2,6 +2,8 @@ package com.cold.base;
 
 public class Constants {
 
+    public static boolean isLogin = true;
+
     /**
      * base
      */
@@ -18,4 +20,9 @@ public class Constants {
      * module2
      */
     public static final String TEST_MODULE2 = "/module2/activity/test";
+
+    /**
+     * login
+     */
+    public static final String TEST_LOGIN = "/app/activity/login";
 }

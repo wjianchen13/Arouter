@@ -1,12 +1,13 @@
 package com.cold.arouter;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
 import com.cold.base.Go;
 
-//import com.alibaba.android.arouter.launcher.ARouter;
+import cn.cold.router.LoginNavigationCallbackImpl;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,5 +21,23 @@ public class MainActivity extends AppCompatActivity {
 
     public void onBase(View view) {
         Go.base().navigation();
+    }
+
+    /**
+     * 这里有问题
+     * @param view
+     */
+    public void onSchame(View view) {
+        Intent it = new Intent();
+        it.setClass(this, SchameFilterActivity.class);
+        startActivity(it);
+    }
+
+    /**
+     * 拦截测试
+     * @param view
+     */
+    public void onIntercept(View view) {
+        Go.base().navigation(this, new LoginNavigationCallbackImpl());
     }
 }

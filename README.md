@@ -105,6 +105,10 @@ ARouter.getInstance().build(Constants.TEST_MODULE1).navigation()
 2.关于分组的使用，同一个分组不能用于多个模块，但是一个模块可以使用多个不一样的分组<br/>
 3.在开发的时候出现别的模块使用了Arouter，会导致其他模块不能使用的情况，检查模块的分组是否和其他模块的名称重复<br/>
 例如分组是/test/xxx,模块名称other/test/...,引入了其他模块的名称也叫test，这时Arouter会出现加载不到对应的类的问题。
+4.出现There is no route matched的问题
+每个model中都需添加ARouter依赖；
+app壳工程中需依赖其它model；
+每个model中使用ARouter注解指定path路径时一级路径的不能重复
 
 
 

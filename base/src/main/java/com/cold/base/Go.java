@@ -16,4 +16,8 @@ public class Go {
     public static Postcard module2() {
         return ARouter.getInstance().build(Constants.TEST_MODULE2);
     }
+
+    public static Postcard login() {
+        return ARouter.getInstance().build(Constants.TEST_LOGIN);
+    }
 }
