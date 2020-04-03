@@ -40,4 +40,13 @@ public class MainActivity extends AppCompatActivity {
     public void onIntercept(View view) {
         Go.base().navigation(this, new LoginNavigationCallbackImpl());
     }
+
+    /**
+     * 拦截测试
+     * @param view
+     */
+    public void onIntercept1(View view) {
+        Go.module2().navigation();
+    }
+
 }
