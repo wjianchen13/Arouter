@@ -32,4 +32,9 @@ public class Constants {
      */
     public static final String TEST_LOGIN = "/app/activity/login";
 
+    /**
+     * test fragment
+     */
+    public static final String TEST_FRAGMENT = "/app/fragment/testFragment";
+
 }

@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.cold.arouter.fragment.TestFragmentActivity;
 import com.cold.base.Go;
 
 import cn.cold.router.LoginNavigationCallbackImpl;
@@ -47,6 +48,14 @@ public class MainActivity extends AppCompatActivity {
      */
     public void onIntercept1(View view) {
         Go.module2().navigation();
+    }
+
+    /**
+     * 拦截测试
+     * @param view
+     */
+    public void onFragment(View view) {
+        startActivity(new Intent(this, TestFragmentActivity.class));
     }
 
 }
