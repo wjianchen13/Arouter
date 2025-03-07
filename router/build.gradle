@@ -40,5 +40,5 @@ dependencies {
 
     implementation project(path: ':base')
 
-    annotationProcessor 'com.alibaba:arouter-compiler:1.2.2'
+    annotationProcessor 'com.alibaba:arouter-compiler:1.5.2'
 }

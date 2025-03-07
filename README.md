@@ -41,8 +41,8 @@ android {
 ```Groovy
 dependencies {
     ...
-    implementation 'com.alibaba:arouter-api:1.5.0'
-    annotationProcessor 'com.alibaba:arouter-compiler:1.2.2'
+    implementation 'com.alibaba:arouter-api:1.5.2'
+    annotationProcessor 'com.alibaba:arouter-compiler:1.5.2'
 }
 ```
 ## 4.初始化SDK
