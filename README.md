@@ -110,11 +110,15 @@ ARouter.getInstance().build(Constants.TEST_MODULE1).navigation()
 app壳工程中需依赖其它model；
 每个model中使用ARouter注解指定path路径时一级路径的不能重复
 
+# 参考文档
+“终于懂了” 系列：组件化框架 ARouter 完全解析（一） 原理详解
+https://mp.weixin.qq.com/s?__biz=MzU2NjgwNjc0NQ==&mid=2247484453&idx=1&sn=9d4fd9637dfa977baa538a4079eaf79e&chksm=fca79593cbd01c853a438c3fd75e8b60ac65afade17500e1a119017afc41b6ff42d77f354909&scene=21#wechat_redirect
 
+“终于懂了” 系列：Android组件化，全面掌握！
+https://mp.weixin.qq.com/s?__biz=MzU2NjgwNjc0NQ==&mid=2247484193&idx=1&sn=5666c4f412ef08e7b89a7bc3decfc1e1&chksm=fca79297cbd01b81ac175d7ec8c2e607312cbf541989b6c3f044f503afb65070c3364f47f956&scene=21#wechat_redirect
 
-
-
-
+ARouter原理剖析及手动实现
+https://www.cnblogs.com/ldq2016/p/10504652.html
 
 
 
